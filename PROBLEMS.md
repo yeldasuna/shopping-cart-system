@@ -1,4 +1,4 @@
-Faz 0: Başlangıç Kodu Analizi:
+# Faz 0: Başlangıç Kodu Analizi:
 Koddaki Tasarım Sorunları
 1. **Açık/Kapalı Prensibi (OCP) İhlali:** Sisteme yeni bir müşteri tipi mesela öğretmen veya platin gibi veyahut yeni bir indirim kuralı eklemek istediğimizde `if-else` bloklarını değiştirmek zorundayız.
 2. **Tek Sorumluluk Prensibi (SRP) İhlali:** `ShoppingCart` sınıfının içindeki `main` metodu her işi yapıyor; müşteri tiplerini kontrol ediyor, indirim hesaplıyor, kupon sorguluyor ve ekrana çıktı veriyor.
